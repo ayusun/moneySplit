@@ -1,4 +1,4 @@
-It is a work in progress. Any help is appreciated, especially the ones related to for Amazon lambda.
+It is a work in progress. Any help is appreciated, especially related to deployment in production lambda
 ----------------------------------------------------------------------------------------------------
 
 Things to Do, before going into production
