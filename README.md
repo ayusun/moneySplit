@@ -1,3 +1,14 @@
+It is a work in progress. Any help is appreciated, especially the ones related to for Amazon lambda.
+----------------------------------------------------------------------------------------------------
+
+Things to Do, before going into production
+------------------------------------------
+
+* Convert code to Typescript/ES6
+* Make some kind of pipeline, to push code to Lambda
+* Some tests :wanna_cry_no_tears:
+
+
 Configuring oauth
 ===================
 
