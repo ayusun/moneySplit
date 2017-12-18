@@ -1,0 +1,20 @@
+{
+  "name": "splitwise-lambda",
+  "version": "1.0.0",
+  "description": "The lambda function to support splitwise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ayush",
+  "license": "APACHE 2.0",
+  "dependencies": {
+    "alexa-sdk": "^1.0.12",
+    "aws-sdk": "^2.104.0",
+    "child_process": "^1.0.2",
+    "https": "^1.0.0",
+    "jaro-winkler": "^0.2.8",
+    "querystring": "^0.2.0",
+    "util": "^0.10.3"
+  }
+}

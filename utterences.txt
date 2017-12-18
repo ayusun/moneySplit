@@ -1,0 +1,38 @@
+GetMyInfo Get My Info
+GetMyInfo Who Am I
+
+WhoOwesMe Who Owes me
+WhoOwesMe Who has to pay me
+
+WhomIOwe To Whom I Owe
+WhomIOwe To Whom I Owe money
+WhomIOwe To Whom do I Owe
+WhomIOwe To Whom do I have to pay
+
+TotalMoneyIOwe How much money do I Owe
+TotalMoneyIOwe How much money do I have to pay
+TotalMoneyIOwe How much money do I have to pay to others
+
+
+TotalMoneyOthersOweMe How much money am I Owed
+TotalMoneyOthersOweMe How much others owe me
+TotalMoneyOthersOweMe How much money other owe me
+
+MoneyIOweTo Money I Owe to {FriendName}
+MoneyIOweTo How much Money I Owe to {FriendName}
+MoneyIOweTo Balance between me and {FriendName}
+
+MoneyToGetFrom Money to get from {FriendName}
+MoneyToGetFrom How much Money to get from {FriendName}
+
+IOUExpense Create an Expense of {money} {currency} on {FriendName} for {expenseReason}
+IOUExpense Create an Expense of {money} {currency} and {smallMoney} {smallCurrency} on {FriendName} for {expenseReason}
+
+GroupExpense Create a group expense of {money} {currency} on {groupName} for {expenseReason}
+GroupExpense Create a group expense of {money} {currency} and {smallMoney} {smallCurrency} on {groupName} for {expenseReason}
+GroupExpense Create a bill of {money} {currency} on {groupName} group for {expenseReason}
+GroupExpense Create a bill of {money} {currency} and {smallMoney} {smallCurrency} on {groupName} group for {expenseReason}
+
+SettleExpense Settle Expenses with {friendName}
+SettleExpense Settle Everything with {friendName}
+SettleExpense Settle with {friendName}

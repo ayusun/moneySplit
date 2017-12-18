@@ -1,0 +1,68 @@
+{
+  "intents": [
+    {
+      "intent": "GetMyInfo"
+    },
+    {
+      "intent": "WhoOwesMe"
+    },
+    {
+      "intent": "WhomIOwe"
+    },
+    {
+      "intent": "TotalMoneyIOwe"
+    },
+    {
+      "intent": "TotalMoneyOthersOweMe"
+    },
+    {
+      "slots": [
+        {
+          "name": "FriendName",
+          "type": "HUMAN_NAMES"
+        }
+      ],
+      "intent": "MoneyIOweTo"
+    },
+    {
+      "slots": [
+        {
+          "name": "FriendName",
+          "type": "HUMAN_NAMES"
+        }
+      ],
+      "intent": "MoneyToGetFrom"
+    },
+    {
+      "slots": [
+        {
+          "name": "money",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "currency",
+          "type": "CURRENCY"
+        },
+        {
+          "name": "smallCurrency",
+          "type": "SMALL_CURRENCY"
+        },
+        {
+          "name": "expenseReason",
+          "type": "EXPENSE_REASON"
+        },
+        {
+          "name": "FriendName",
+          "type": "HUMAN_NAMES"
+        }
+      ],
+      "intent": "IOUExpense"
+    },
+    {
+      "intent": "AMAZON.YesIntent"
+    },
+    {
+      "intent": "AMAZON.NoIntent"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "intents": [
+    {
+      "intent": "GetMyInfo"
+    },
+    {
+      "intent": "WhoOwesMe"
+    },
+    {
+      "intent": "WhomIOwe"
+    },
+    {
+      "intent": "TotalMoneyIOwe"
+    },
+    {
+      "intent": "TotalMoneyOthersOweMe"
+    },
+    {
+      "slots": [
+        {
+          "name": "FriendName",
+          "type": "AMAZON.US_FIRST_NAME"
+        }
+      ],
+      "intent": "MoneyIOweTo"
+    },
+    {
+      "slots": [
+        {
+          "name": "FriendName",
+          "type": "AMAZON.US_FIRST_NAME"
+        }
+      ],
+      "intent": "MoneyToGetFrom"
+    },
+    {
+      "slots": [
+        {
+          "name": "money",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "smallMoney",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "currency",
+          "type": "CURRENCY"
+        },
+        {
+          "name": "smallCurrency",
+          "type": "SMALL_CURRENCY"
+        },
+        {
+          "name": "expenseReason",
+          "type": "EXPENSE_REASON"
+        },
+        {
+          "name": "FriendName",
+          "type": "AMAZON.US_FIRST_NAME"
+        }
+      ],
+      "intent": "IOUExpense"
+    },
+    {
+      "intent": "AMAZON.YesIntent"
+    },
+    {
+      "intent": "AMAZON.NoIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "money",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "smallMoney",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "currency",
+          "type": "CURRENCY"
+        },
+        {
+          "name": "smallCurrency",
+          "type": "SMALL_CURRENCY"
+        },
+        {
+          "name": "expenseReason",
+          "type": "EXPENSE_REASON"
+        },
+        {
+          "name": "groupName",
+          "type": "GROUP_NAMES"
+        }
+      ],
+      "intent": "GroupExpense"
+    },
+    {
+      "slots": [
+        {
+          "name": "friendName",
+          "type": "AMAZON.US_FIRST_NAME"
+        },
+        {
+          "name": "money",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "smallMoney",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "currency",
+          "type": "CURRENCY"
+        },
+        {
+          "name": "smallCurrency",
+          "type": "SMALL_CURRENCY"
+        }
+      ],
+      "intent": "SettleExpense"
+    }
+  ]
+}
